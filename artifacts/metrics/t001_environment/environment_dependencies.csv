@@ -1,0 +1,11 @@
+dependency,status,detail
+pandas,OK,
+datasets,OK,
+bs4,OK,
+lxml,OK,
+transformers,OK,
+matplotlib,OK,
+chromadb,OK,
+langchain,OK,
+langchain_chroma,OK,
+langchain_community,OK,

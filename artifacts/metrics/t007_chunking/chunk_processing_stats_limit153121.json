@@ -1,0 +1,28 @@
+{
+  "processed_date": "2026-07-02T17:13:28.710247",
+  "data_split": "limit153121",
+  "original_documents": 153121,
+  "processed_documents": 153121,
+  "chunked_documents": 133539,
+  "excluded_documents": 19582,
+  "total_chunks": 3057078,
+  "chunks_per_doc": {
+    "metric": "chunks_per_doc",
+    "count": 133539,
+    "mean": 22.892772897805134,
+    "median": 22.0,
+    "p75": 32.0,
+    "p90": 42.0,
+    "p95": 49.0,
+    "p99": 67.0,
+    "max": 741
+  },
+  "chunk_size": 400,
+  "chunk_overlap": 80,
+  "whole_doc_token_limit": 512,
+  "tokenizer": "sentence-transformers/all-MiniLM-L6-v2",
+  "tokenizer_ref": "/Users/plain/Documents/实习/百度大模型/medical_rag/artifacts/models/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "output_manifest": "artifacts/datasets/chunks/pmc_chunks_limit153121_manifest.csv",
+  "chroma_created": false,
+  "embedding_created": false
+}

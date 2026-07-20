@@ -1,0 +1,312 @@
+id,record_id,source_file,title,section_title,section_index,section_source,chunk_index,chunk_count,within_section_chunk_index,within_section_chunk_count,chunk_chars,chunk_token_len_approx
+pmc_000001::chunk_00000,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Title and abstract,-1,record_title_abstract,0,41,0,1,2211,314
+pmc_000001::chunk_00001,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Introduction,0,xml_top_level_sec,1,41,0,4,12,1
+pmc_000001::chunk_00002,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Introduction,0,xml_top_level_sec,2,41,1,4,2544,376
+pmc_000001::chunk_00003,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Introduction,0,xml_top_level_sec,3,41,2,4,2548,399
+pmc_000001::chunk_00004,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Introduction,0,xml_top_level_sec,4,41,3,4,1774,274
+pmc_000001::chunk_00005,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,5,41,0,22,7,1
+pmc_000001::chunk_00006,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,6,41,1,22,2611,396
+pmc_000001::chunk_00007,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,7,41,2,22,2579,377
+pmc_000001::chunk_00008,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,8,41,3,22,2430,393
+pmc_000001::chunk_00009,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,9,41,4,22,2556,397
+pmc_000001::chunk_00010,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,10,41,5,22,2665,398
+pmc_000001::chunk_00011,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,11,41,6,22,2651,383
+pmc_000001::chunk_00012,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,12,41,7,22,2752,389
+pmc_000001::chunk_00013,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,13,41,8,22,2861,387
+pmc_000001::chunk_00014,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,14,41,9,22,2637,386
+pmc_000001::chunk_00015,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,15,41,10,22,2560,390
+pmc_000001::chunk_00016,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,16,41,11,22,2536,368
+pmc_000001::chunk_00017,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,17,41,12,22,2661,377
+pmc_000001::chunk_00018,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,18,41,13,22,2790,400
+pmc_000001::chunk_00019,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,19,41,14,22,2663,391
+pmc_000001::chunk_00020,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,20,41,15,22,2639,399
+pmc_000001::chunk_00021,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,21,41,16,22,2732,391
+pmc_000001::chunk_00022,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,22,41,17,22,2647,397
+pmc_000001::chunk_00023,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,23,41,18,22,2630,397
+pmc_000001::chunk_00024,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,24,41,19,22,2520,396
+pmc_000001::chunk_00025,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,25,41,20,22,2606,384
+pmc_000001::chunk_00026,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Results,1,xml_top_level_sec,26,41,21,22,2255,344
+pmc_000001::chunk_00027,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Discussion,2,xml_top_level_sec,27,41,0,4,10,1
+pmc_000001::chunk_00028,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Discussion,2,xml_top_level_sec,28,41,1,4,2735,396
+pmc_000001::chunk_00029,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Discussion,2,xml_top_level_sec,29,41,2,4,2594,389
+pmc_000001::chunk_00030,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Discussion,2,xml_top_level_sec,30,41,3,4,2314,339
+pmc_000001::chunk_00031,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,31,41,0,6,21,3
+pmc_000001::chunk_00032,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,32,41,1,6,2504,395
+pmc_000001::chunk_00033,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,33,41,2,6,2503,388
+pmc_000001::chunk_00034,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,34,41,3,6,2253,365
+pmc_000001::chunk_00035,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,35,41,4,6,2395,373
+pmc_000001::chunk_00036,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Materials and Methods,3,xml_top_level_sec,36,41,5,6,840,136
+pmc_000001::chunk_00037,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Supporting Information,4,xml_top_level_sec,37,41,0,4,22,2
+pmc_000001::chunk_00038,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Supporting Information,4,xml_top_level_sec,38,41,1,4,2324,400
+pmc_000001::chunk_00039,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Supporting Information,4,xml_top_level_sec,39,41,2,4,2488,389
+pmc_000001::chunk_00040,pmc_000001,PMC000xxxxxx/PMC176545.xml,The Transcriptome of the Intraerythrocytic Developmental Cycle of Plasmodium falciparum,Supporting Information,4,xml_top_level_sec,40,41,3,4,1938,310
+pmc_000002::chunk_00000,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Title and abstract,-1,record_title_abstract,0,17,0,1,1517,225
+pmc_000002::chunk_00001,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Introduction,0,xml_top_level_sec,1,17,0,3,12,1
+pmc_000002::chunk_00002,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Introduction,0,xml_top_level_sec,2,17,1,3,2623,400
+pmc_000002::chunk_00003,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Introduction,0,xml_top_level_sec,3,17,2,3,1137,156
+pmc_000002::chunk_00004,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Results,1,xml_top_level_sec,4,17,0,4,7,1
+pmc_000002::chunk_00005,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Results,1,xml_top_level_sec,5,17,1,4,2657,398
+pmc_000002::chunk_00006,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Results,1,xml_top_level_sec,6,17,2,4,2689,394
+pmc_000002::chunk_00007,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Results,1,xml_top_level_sec,7,17,3,4,1836,269
+pmc_000002::chunk_00008,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Discussion,2,xml_top_level_sec,8,17,0,4,10,1
+pmc_000002::chunk_00009,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Discussion,2,xml_top_level_sec,9,17,1,4,2651,399
+pmc_000002::chunk_00010,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Discussion,2,xml_top_level_sec,10,17,2,4,2656,392
+pmc_000002::chunk_00011,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Discussion,2,xml_top_level_sec,11,17,3,4,1530,225
+pmc_000002::chunk_00012,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Materials and Methods,3,xml_top_level_sec,12,17,0,4,21,3
+pmc_000002::chunk_00013,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Materials and Methods,3,xml_top_level_sec,13,17,1,4,2725,383
+pmc_000002::chunk_00014,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Materials and Methods,3,xml_top_level_sec,14,17,2,4,2672,398
+pmc_000002::chunk_00015,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Materials and Methods,3,xml_top_level_sec,15,17,3,4,577,80
+pmc_000002::chunk_00016,pmc_000002,PMC000xxxxxx/PMC176546.xml,DNA Analysis Indicates That Asian Elephants Are Native to Borneo and Are Therefore a High Priority for Conservation,Supporting Information,4,xml_top_level_sec,16,17,0,1,151,21
+pmc_000003::chunk_00000,pmc_000003,PMC000xxxxxx/PMC176547.xml,Borneo Elephants: A High Priority for Conservation,Title and abstract,-1,record_title_abstract,0,2,0,1,50,7
+pmc_000003::chunk_00001,pmc_000003,PMC000xxxxxx/PMC176547.xml,Borneo Elephants: A High Priority for Conservation,Body,0,xml_body_fallback,1,2,0,1,1879,286
+pmc_000004::chunk_00000,pmc_000004,PMC000xxxxxx/PMC176548.xml,Monitoring Malaria: Genomic Activity of the Parasite in Human Blood Cells,Title and abstract,-1,record_title_abstract,0,4,0,1,73,11
+pmc_000004::chunk_00001,pmc_000004,PMC000xxxxxx/PMC176548.xml,Monitoring Malaria: Genomic Activity of the Parasite in Human Blood Cells,Body,0,xml_body_fallback,1,4,0,3,4,1
+pmc_000004::chunk_00002,pmc_000004,PMC000xxxxxx/PMC176548.xml,Monitoring Malaria: Genomic Activity of the Parasite in Human Blood Cells,Body,0,xml_body_fallback,2,4,1,3,2445,386
+pmc_000004::chunk_00003,pmc_000004,PMC000xxxxxx/PMC176548.xml,Monitoring Malaria: Genomic Activity of the Parasite in Human Blood Cells,Body,0,xml_body_fallback,3,4,2,3,603,91
+pmc_000005::chunk_00000,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Title and abstract,-1,record_title_abstract,0,22,0,1,2405,353
+pmc_000005::chunk_00001,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Introduction,0,xml_top_level_sec,1,22,0,3,12,1
+pmc_000005::chunk_00002,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Introduction,0,xml_top_level_sec,2,22,1,3,2513,390
+pmc_000005::chunk_00003,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Introduction,0,xml_top_level_sec,3,22,2,3,1115,176
+pmc_000005::chunk_00004,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,4,22,0,10,7,1
+pmc_000005::chunk_00005,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,5,22,1,10,2463,398
+pmc_000005::chunk_00006,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,6,22,2,10,2271,391
+pmc_000005::chunk_00007,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,7,22,3,10,2537,389
+pmc_000005::chunk_00008,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,8,22,4,10,2549,394
+pmc_000005::chunk_00009,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,9,22,5,10,2261,395
+pmc_000005::chunk_00010,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,10,22,6,10,2368,400
+pmc_000005::chunk_00011,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,11,22,7,10,2248,381
+pmc_000005::chunk_00012,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,12,22,8,10,2469,385
+pmc_000005::chunk_00013,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Results,1,xml_top_level_sec,13,22,9,10,2127,359
+pmc_000005::chunk_00014,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Discussion,2,xml_top_level_sec,14,22,0,4,10,1
+pmc_000005::chunk_00015,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Discussion,2,xml_top_level_sec,15,22,1,4,2494,393
+pmc_000005::chunk_00016,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Discussion,2,xml_top_level_sec,16,22,2,4,2310,378
+pmc_000005::chunk_00017,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Discussion,2,xml_top_level_sec,17,22,3,4,1552,239
+pmc_000005::chunk_00018,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Materials and Methods,3,xml_top_level_sec,18,22,0,3,21,3
+pmc_000005::chunk_00019,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Materials and Methods,3,xml_top_level_sec,19,22,1,3,2448,385
+pmc_000005::chunk_00020,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Materials and Methods,3,xml_top_level_sec,20,22,2,3,2248,337
+pmc_000005::chunk_00021,pmc_000005,PMC000xxxxxx/PMC193604.xml,Drosophila Free-Running Rhythms Require Intercellular Communication,Supporting Information,4,xml_top_level_sec,21,22,0,1,1022,181
+pmc_000006::chunk_00000,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Title and abstract,-1,record_title_abstract,0,24,0,1,1863,268
+pmc_000006::chunk_00001,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Introduction,0,xml_top_level_sec,1,24,0,4,12,1
+pmc_000006::chunk_00002,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Introduction,0,xml_top_level_sec,2,24,1,4,2625,388
+pmc_000006::chunk_00003,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Introduction,0,xml_top_level_sec,3,24,2,4,2636,397
+pmc_000006::chunk_00004,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Introduction,0,xml_top_level_sec,4,24,3,4,2164,322
+pmc_000006::chunk_00005,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,5,24,0,7,7,1
+pmc_000006::chunk_00006,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,6,24,1,7,2553,400
+pmc_000006::chunk_00007,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,7,24,2,7,2457,389
+pmc_000006::chunk_00008,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,8,24,3,7,2332,371
+pmc_000006::chunk_00009,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,9,24,4,7,2351,380
+pmc_000006::chunk_00010,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,10,24,5,7,2542,397
+pmc_000006::chunk_00011,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Results,1,xml_top_level_sec,11,24,6,7,2306,345
+pmc_000006::chunk_00012,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,12,24,0,6,10,1
+pmc_000006::chunk_00013,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,13,24,1,6,2541,400
+pmc_000006::chunk_00014,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,14,24,2,6,2431,384
+pmc_000006::chunk_00015,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,15,24,3,6,2526,384
+pmc_000006::chunk_00016,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,16,24,4,6,2572,385
+pmc_000006::chunk_00017,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Discussion,2,xml_top_level_sec,17,24,5,6,1694,248
+pmc_000006::chunk_00018,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Materials and Methods,3,xml_top_level_sec,18,24,0,5,21,3
+pmc_000006::chunk_00019,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Materials and Methods,3,xml_top_level_sec,19,24,1,5,2508,369
+pmc_000006::chunk_00020,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Materials and Methods,3,xml_top_level_sec,20,24,2,5,2429,397
+pmc_000006::chunk_00021,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Materials and Methods,3,xml_top_level_sec,21,24,3,5,2526,395
+pmc_000006::chunk_00022,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Materials and Methods,3,xml_top_level_sec,22,24,4,5,2230,355
+pmc_000006::chunk_00023,pmc_000006,PMC000xxxxxx/PMC193605.xml,From Gene Trees to Organismal Phylogeny in Prokaryotes:The Case of the γ-Proteobacteria,Supporting Information,4,xml_top_level_sec,23,24,0,1,438,55
+pmc_000007::chunk_00000,pmc_000007,PMC000xxxxxx/PMC193606.xml,Biological Clock Depends on Many Parts Working Together,Title and abstract,-1,record_title_abstract,0,4,0,1,55,8
+pmc_000007::chunk_00001,pmc_000007,PMC000xxxxxx/PMC193606.xml,Biological Clock Depends on Many Parts Working Together,Body,0,xml_body_fallback,1,4,0,3,4,1
+pmc_000007::chunk_00002,pmc_000007,PMC000xxxxxx/PMC193606.xml,Biological Clock Depends on Many Parts Working Together,Body,0,xml_body_fallback,2,4,1,3,2652,395
+pmc_000007::chunk_00003,pmc_000007,PMC000xxxxxx/PMC193606.xml,Biological Clock Depends on Many Parts Working Together,Body,0,xml_body_fallback,3,4,2,3,734,106
+pmc_000008::chunk_00000,pmc_000008,PMC000xxxxxx/PMC193607.xml,New Genomic Approach Predicts True Evolutionary History of Bacterial Genomes,Title and abstract,-1,record_title_abstract,0,4,0,1,76,10
+pmc_000008::chunk_00001,pmc_000008,PMC000xxxxxx/PMC193607.xml,New Genomic Approach Predicts True Evolutionary History of Bacterial Genomes,Body,0,xml_body_fallback,1,4,0,3,4,1
+pmc_000008::chunk_00002,pmc_000008,PMC000xxxxxx/PMC193607.xml,New Genomic Approach Predicts True Evolutionary History of Bacterial Genomes,Body,0,xml_body_fallback,2,4,1,3,2467,366
+pmc_000008::chunk_00003,pmc_000008,PMC000xxxxxx/PMC193607.xml,New Genomic Approach Predicts True Evolutionary History of Bacterial Genomes,Body,0,xml_body_fallback,3,4,2,3,1456,212
+pmc_000009::chunk_00000,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Title and abstract,-1,record_title_abstract,0,24,0,1,1481,224
+pmc_000009::chunk_00001,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Background,0,xml_top_level_sec,1,24,0,3,10,1
+pmc_000009::chunk_00002,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Background,0,xml_top_level_sec,2,24,1,3,2183,334
+pmc_000009::chunk_00003,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Background,0,xml_top_level_sec,3,24,2,3,895,143
+pmc_000009::chunk_00004,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Results,1,xml_top_level_sec,4,24,0,5,7,1
+pmc_000009::chunk_00005,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Results,1,xml_top_level_sec,5,24,1,5,2629,394
+pmc_000009::chunk_00006,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Results,1,xml_top_level_sec,6,24,2,5,2447,384
+pmc_000009::chunk_00007,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Results,1,xml_top_level_sec,7,24,3,5,2593,380
+pmc_000009::chunk_00008,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Results,1,xml_top_level_sec,8,24,4,5,2702,387
+pmc_000009::chunk_00009,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Discussion,2,xml_top_level_sec,9,24,0,5,10,1
+pmc_000009::chunk_00010,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Discussion,2,xml_top_level_sec,10,24,1,5,2393,376
+pmc_000009::chunk_00011,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Discussion,2,xml_top_level_sec,11,24,2,5,2319,367
+pmc_000009::chunk_00012,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Discussion,2,xml_top_level_sec,12,24,3,5,2427,394
+pmc_000009::chunk_00013,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Discussion,2,xml_top_level_sec,13,24,4,5,1302,205
+pmc_000009::chunk_00014,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Conclusions,3,xml_top_level_sec,14,24,0,1,928,145
+pmc_000009::chunk_00015,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Cell culture,4,xml_top_level_sec,15,24,0,1,706,102
+pmc_000009::chunk_00016,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Transient Transfection,5,xml_top_level_sec,16,24,0,1,382,48
+pmc_000009::chunk_00017,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Generation of fusion proteins,6,xml_top_level_sec,17,24,0,1,1419,229
+pmc_000009::chunk_00018,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Immunoprecipitation assay,7,xml_top_level_sec,18,24,0,1,822,125
+pmc_000009::chunk_00019,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Immunoblotting,8,xml_top_level_sec,19,24,0,1,546,86
+pmc_000009::chunk_00020,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,PLD activity assay,9,xml_top_level_sec,20,24,0,1,879,136
+pmc_000009::chunk_00021,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Digitonin treatment,10,xml_top_level_sec,21,24,0,1,485,76
+pmc_000009::chunk_00022,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,In vitro ARF activation assay,11,xml_top_level_sec,22,24,0,1,706,114
+pmc_000009::chunk_00023,pmc_000009,PMC000xxxxxx/PMC212319.xml,The Guanine Nucleotide Exchange Factor ARNO mediates the activation of ARF and phospholipase D by insulin,Confocal microscopy,12,xml_top_level_sec,23,24,0,1,1249,184
+pmc_000010::chunk_00000,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Title and abstract,-1,record_title_abstract,0,34,0,1,1867,277
+pmc_000010::chunk_00001,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Introduction,0,xml_top_level_sec,1,34,0,5,12,1
+pmc_000010::chunk_00002,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Introduction,0,xml_top_level_sec,2,34,1,5,2444,383
+pmc_000010::chunk_00003,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Introduction,0,xml_top_level_sec,3,34,2,5,2554,390
+pmc_000010::chunk_00004,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Introduction,0,xml_top_level_sec,4,34,3,5,2515,394
+pmc_000010::chunk_00005,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Introduction,0,xml_top_level_sec,5,34,4,5,1702,264
+pmc_000010::chunk_00006,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,6,34,0,14,7,1
+pmc_000010::chunk_00007,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,7,34,1,14,2418,394
+pmc_000010::chunk_00008,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,8,34,2,14,2354,388
+pmc_000010::chunk_00009,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,9,34,3,14,2376,394
+pmc_000010::chunk_00010,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,10,34,4,14,2438,384
+pmc_000010::chunk_00011,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,11,34,5,14,2425,393
+pmc_000010::chunk_00012,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,12,34,6,14,2324,392
+pmc_000010::chunk_00013,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,13,34,7,14,2404,397
+pmc_000010::chunk_00014,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,14,34,8,14,2502,399
+pmc_000010::chunk_00015,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,15,34,9,14,2359,366
+pmc_000010::chunk_00016,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,16,34,10,14,2502,385
+pmc_000010::chunk_00017,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,17,34,11,14,2515,390
+pmc_000010::chunk_00018,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,18,34,12,14,2463,399
+pmc_000010::chunk_00019,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Results,1,xml_top_level_sec,19,34,13,14,617,110
+pmc_000010::chunk_00020,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,20,34,0,9,10,1
+pmc_000010::chunk_00021,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,21,34,1,9,2476,387
+pmc_000010::chunk_00022,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,22,34,2,9,2319,382
+pmc_000010::chunk_00023,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,23,34,3,9,2422,386
+pmc_000010::chunk_00024,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,24,34,4,9,2533,393
+pmc_000010::chunk_00025,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,25,34,5,9,2437,367
+pmc_000010::chunk_00026,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,26,34,6,9,2530,382
+pmc_000010::chunk_00027,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,27,34,7,9,2644,385
+pmc_000010::chunk_00028,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Discussion,2,xml_top_level_sec,28,34,8,9,2034,314
+pmc_000010::chunk_00029,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Materials and Methods,3,xml_top_level_sec,29,34,0,4,21,3
+pmc_000010::chunk_00030,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Materials and Methods,3,xml_top_level_sec,30,34,1,4,2355,372
+pmc_000010::chunk_00031,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Materials and Methods,3,xml_top_level_sec,31,34,2,4,2399,397
+pmc_000010::chunk_00032,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Materials and Methods,3,xml_top_level_sec,32,34,3,4,1194,177
+pmc_000010::chunk_00033,pmc_000010,PMC000xxxxxx/PMC212687.xml,A Functional Analysis of the Spacer of V(D)J Recombination Signal Sequences,Supporting Information,4,xml_top_level_sec,33,34,0,1,354,53
+pmc_000011::chunk_00000,pmc_000011,PMC000xxxxxx/PMC212688.xml,Functional Analysis of RSS Spacers,Title and abstract,-1,record_title_abstract,0,4,0,1,34,5
+pmc_000011::chunk_00001,pmc_000011,PMC000xxxxxx/PMC212688.xml,Functional Analysis of RSS Spacers,Body,0,xml_body_fallback,1,4,0,3,4,1
+pmc_000011::chunk_00002,pmc_000011,PMC000xxxxxx/PMC212688.xml,Functional Analysis of RSS Spacers,Body,0,xml_body_fallback,2,4,1,3,2440,385
+pmc_000011::chunk_00003,pmc_000011,PMC000xxxxxx/PMC212688.xml,Functional Analysis of RSS Spacers,Body,0,xml_body_fallback,3,4,2,3,1707,255
+pmc_000012::chunk_00000,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Title and abstract,-1,record_title_abstract,0,12,0,1,169,25
+pmc_000012::chunk_00001,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Benefits Emerging,0,xml_top_level_sec,1,12,0,1,2297,341
+pmc_000012::chunk_00002,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Risky Business,1,xml_top_level_sec,2,12,0,4,14,2
+pmc_000012::chunk_00003,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Risky Business,1,xml_top_level_sec,3,12,1,4,2462,375
+pmc_000012::chunk_00004,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Risky Business,1,xml_top_level_sec,4,12,2,4,2514,396
+pmc_000012::chunk_00005,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Risky Business,1,xml_top_level_sec,5,12,3,4,2586,396
+pmc_000012::chunk_00006,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Do Risks Differ for Developing Nations?,2,xml_top_level_sec,6,12,0,5,39,6
+pmc_000012::chunk_00007,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Do Risks Differ for Developing Nations?,2,xml_top_level_sec,7,12,1,5,2607,390
+pmc_000012::chunk_00008,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Do Risks Differ for Developing Nations?,2,xml_top_level_sec,8,12,2,5,2494,397
+pmc_000012::chunk_00009,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Do Risks Differ for Developing Nations?,2,xml_top_level_sec,9,12,3,5,2713,383
+pmc_000012::chunk_00010,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Do Risks Differ for Developing Nations?,2,xml_top_level_sec,10,12,4,5,583,88
+pmc_000012::chunk_00011,pmc_000012,PMC000xxxxxx/PMC212689.xml,Genetically Modified Corn— Environmental Benefits and Risks,Conclusion,3,xml_top_level_sec,11,12,0,1,1575,243
+pmc_000013::chunk_00000,pmc_000013,PMC000xxxxxx/PMC212690.xml,Out of the Way,Title and abstract,-1,record_title_abstract,0,5,0,1,140,23
+pmc_000013::chunk_00001,pmc_000013,PMC000xxxxxx/PMC212690.xml,Out of the Way,Body,0,xml_body_fallback,1,5,0,4,4,1
+pmc_000013::chunk_00002,pmc_000013,PMC000xxxxxx/PMC212690.xml,Out of the Way,Body,0,xml_body_fallback,2,5,1,4,2603,398
+pmc_000013::chunk_00003,pmc_000013,PMC000xxxxxx/PMC212690.xml,Out of the Way,Body,0,xml_body_fallback,3,5,2,4,2465,374
+pmc_000013::chunk_00004,pmc_000013,PMC000xxxxxx/PMC212690.xml,Out of the Way,Body,0,xml_body_fallback,4,5,3,4,2383,371
+pmc_000014::chunk_00000,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Title and abstract,-1,record_title_abstract,0,49,0,1,2025,295
+pmc_000014::chunk_00001,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Introduction,0,xml_top_level_sec,1,49,0,5,12,1
+pmc_000014::chunk_00002,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Introduction,0,xml_top_level_sec,2,49,1,5,2577,377
+pmc_000014::chunk_00003,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Introduction,0,xml_top_level_sec,3,49,2,5,2483,388
+pmc_000014::chunk_00004,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Introduction,0,xml_top_level_sec,4,49,3,5,2274,376
+pmc_000014::chunk_00005,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Introduction,0,xml_top_level_sec,5,49,4,5,1116,173
+pmc_000014::chunk_00006,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,6,49,0,30,7,1
+pmc_000014::chunk_00007,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,7,49,1,30,2549,395
+pmc_000014::chunk_00008,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,8,49,2,30,2242,367
+pmc_000014::chunk_00009,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,9,49,3,30,2510,393
+pmc_000014::chunk_00010,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,10,49,4,30,2572,397
+pmc_000014::chunk_00011,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,11,49,5,30,2118,321
+pmc_000014::chunk_00012,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,12,49,6,30,2334,376
+pmc_000014::chunk_00013,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,13,49,7,30,2672,396
+pmc_000014::chunk_00014,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,14,49,8,30,2252,369
+pmc_000014::chunk_00015,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,15,49,9,30,2402,393
+pmc_000014::chunk_00016,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,16,49,10,30,2640,395
+pmc_000014::chunk_00017,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,17,49,11,30,2271,376
+pmc_000014::chunk_00018,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,18,49,12,30,2439,400
+pmc_000014::chunk_00019,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,19,49,13,30,2418,389
+pmc_000014::chunk_00020,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,20,49,14,30,2353,395
+pmc_000014::chunk_00021,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,21,49,15,30,2439,397
+pmc_000014::chunk_00022,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,22,49,16,30,2385,375
+pmc_000014::chunk_00023,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,23,49,17,30,2549,396
+pmc_000014::chunk_00024,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,24,49,18,30,2373,372
+pmc_000014::chunk_00025,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,25,49,19,30,2549,387
+pmc_000014::chunk_00026,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,26,49,20,30,2327,372
+pmc_000014::chunk_00027,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,27,49,21,30,2357,379
+pmc_000014::chunk_00028,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,28,49,22,30,2373,398
+pmc_000014::chunk_00029,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,29,49,23,30,2547,381
+pmc_000014::chunk_00030,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,30,49,24,30,2570,395
+pmc_000014::chunk_00031,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,31,49,25,30,2359,372
+pmc_000014::chunk_00032,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,32,49,26,30,2487,394
+pmc_000014::chunk_00033,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,33,49,27,30,2496,398
+pmc_000014::chunk_00034,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,34,49,28,30,2531,382
+pmc_000014::chunk_00035,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Results,1,xml_top_level_sec,35,49,29,30,1259,205
+pmc_000014::chunk_00036,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,36,49,0,9,10,1
+pmc_000014::chunk_00037,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,37,49,1,9,2515,397
+pmc_000014::chunk_00038,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,38,49,2,9,2549,389
+pmc_000014::chunk_00039,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,39,49,3,9,2583,396
+pmc_000014::chunk_00040,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,40,49,4,9,2471,382
+pmc_000014::chunk_00041,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,41,49,5,9,2557,385
+pmc_000014::chunk_00042,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,42,49,6,9,2628,397
+pmc_000014::chunk_00043,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,43,49,7,9,2424,372
+pmc_000014::chunk_00044,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Discussion,2,xml_top_level_sec,44,49,8,9,2274,332
+pmc_000014::chunk_00045,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Materials and Methods,3,xml_top_level_sec,45,49,0,3,21,3
+pmc_000014::chunk_00046,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Materials and Methods,3,xml_top_level_sec,46,49,1,3,2418,392
+pmc_000014::chunk_00047,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Materials and Methods,3,xml_top_level_sec,47,49,2,3,1948,315
+pmc_000014::chunk_00048,pmc_000014,PMC000xxxxxx/PMC212691.xml,The Roles of APC and Axin Derived from Experimental and Theoretical Analysis of the Wnt Pathway,Supporting Information,4,xml_top_level_sec,48,49,0,1,2292,362
+pmc_000015::chunk_00000,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Title and abstract,-1,record_title_abstract,0,22,0,1,1500,219
+pmc_000015::chunk_00001,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Introduction,0,xml_top_level_sec,1,22,0,3,12,1
+pmc_000015::chunk_00002,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Introduction,0,xml_top_level_sec,2,22,1,3,2368,386
+pmc_000015::chunk_00003,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Introduction,0,xml_top_level_sec,3,22,2,3,1612,256
+pmc_000015::chunk_00004,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,4,22,0,10,7,1
+pmc_000015::chunk_00005,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,5,22,1,10,2384,396
+pmc_000015::chunk_00006,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,6,22,2,10,2351,381
+pmc_000015::chunk_00007,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,7,22,3,10,2344,388
+pmc_000015::chunk_00008,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,8,22,4,10,2412,396
+pmc_000015::chunk_00009,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,9,22,5,10,2443,400
+pmc_000015::chunk_00010,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,10,22,6,10,2371,374
+pmc_000015::chunk_00011,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,11,22,7,10,2384,386
+pmc_000015::chunk_00012,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,12,22,8,10,2337,385
+pmc_000015::chunk_00013,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Results,1,xml_top_level_sec,13,22,9,10,1036,153
+pmc_000015::chunk_00014,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Discussion,2,xml_top_level_sec,14,22,0,4,10,1
+pmc_000015::chunk_00015,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Discussion,2,xml_top_level_sec,15,22,1,4,2433,389
+pmc_000015::chunk_00016,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Discussion,2,xml_top_level_sec,16,22,2,4,2503,399
+pmc_000015::chunk_00017,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Discussion,2,xml_top_level_sec,17,22,3,4,1050,168
+pmc_000015::chunk_00018,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Materials and Methods,3,xml_top_level_sec,18,22,0,3,21,3
+pmc_000015::chunk_00019,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Materials and Methods,3,xml_top_level_sec,19,22,1,3,2433,373
+pmc_000015::chunk_00020,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Materials and Methods,3,xml_top_level_sec,20,22,2,3,888,135
+pmc_000015::chunk_00021,pmc_000015,PMC000xxxxxx/PMC212692.xml,Genome-Wide RNAi of C. elegans Using the Hypersensitive rrf-3 Strain Reveals Novel Gene Functions,Supporting Information,4,xml_top_level_sec,21,22,0,1,472,76
+pmc_000016::chunk_00000,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Title and abstract,-1,record_title_abstract,0,6,0,1,167,26
+pmc_000016::chunk_00001,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Body,0,xml_body_fallback,1,6,0,5,4,1
+pmc_000016::chunk_00002,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Body,0,xml_body_fallback,2,6,1,5,2709,400
+pmc_000016::chunk_00003,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Body,0,xml_body_fallback,3,6,2,5,2480,389
+pmc_000016::chunk_00004,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Body,0,xml_body_fallback,4,6,3,5,2591,387
+pmc_000016::chunk_00005,pmc_000016,PMC000xxxxxx/PMC212693.xml,Heterochromatin Dynamics,Body,0,xml_body_fallback,5,6,4,5,1983,296
+pmc_000017::chunk_00000,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Title and abstract,-1,record_title_abstract,0,7,0,1,241,35
+pmc_000017::chunk_00001,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fundamental Microarray Technology,0,xml_top_level_sec,1,7,0,3,33,3
+pmc_000017::chunk_00002,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fundamental Microarray Technology,0,xml_top_level_sec,2,7,1,3,2389,387
+pmc_000017::chunk_00003,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fundamental Microarray Technology,0,xml_top_level_sec,3,7,2,3,1052,157
+pmc_000017::chunk_00004,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fishing for Hypotheses,1,xml_top_level_sec,4,7,0,3,22,3
+pmc_000017::chunk_00005,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fishing for Hypotheses,1,xml_top_level_sec,5,7,1,3,2590,387
+pmc_000017::chunk_00006,pmc_000017,PMC000xxxxxx/PMC212694.xml,Microarray Analysis,Fishing for Hypotheses,1,xml_top_level_sec,6,7,2,3,2162,321
+pmc_000018::chunk_00000,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,Title and abstract,-1,record_title_abstract,0,8,0,1,278,45
+pmc_000018::chunk_00001,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,V(D)J Recombination: A Cut-and-Paste Reaction,0,xml_top_level_sec,1,8,0,1,1353,217
+pmc_000018::chunk_00002,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,RAGs: Indispensable for V(D)J Recombination,1,xml_top_level_sec,2,8,0,1,1417,228
+pmc_000018::chunk_00003,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,RSSs: The Targets of the Reaction,2,xml_top_level_sec,3,8,0,1,2007,336
+pmc_000018::chunk_00004,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,Breaks: Necessary Precursors of Recombination,3,xml_top_level_sec,4,8,0,1,1102,176
+pmc_000018::chunk_00005,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,Resolution: The Final Step,4,xml_top_level_sec,5,8,0,1,1078,175
+pmc_000018::chunk_00006,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,An Evolutionary Model of V(D)J Recombination,5,xml_top_level_sec,6,8,0,1,1750,277
+pmc_000018::chunk_00007,pmc_000018,PMC000xxxxxx/PMC212695.xml,V(D)J Recombination and the Evolution of the Adaptive Immune System,Conclusion,6,xml_top_level_sec,7,8,0,1,490,80
+pmc_000019::chunk_00000,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Title and abstract,-1,record_title_abstract,0,6,0,1,185,25
+pmc_000019::chunk_00001,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Body,0,xml_body_fallback,1,6,0,5,4,1
+pmc_000019::chunk_00002,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Body,0,xml_body_fallback,2,6,1,5,2483,395
+pmc_000019::chunk_00003,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Body,0,xml_body_fallback,3,6,2,5,2613,377
+pmc_000019::chunk_00004,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Body,0,xml_body_fallback,4,6,3,5,2692,384
+pmc_000019::chunk_00005,pmc_000019,PMC000xxxxxx/PMC212696.xml,Neuroscience Networks,Body,0,xml_body_fallback,5,6,4,5,2764,394
+pmc_000020::chunk_00000,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Title and abstract,-1,record_title_abstract,0,16,0,1,131,18
+pmc_000020::chunk_00001,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Complex Challenges and the Virtue of Simplicity,0,xml_top_level_sec,1,16,0,5,47,7
+pmc_000020::chunk_00002,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Complex Challenges and the Virtue of Simplicity,0,xml_top_level_sec,2,16,1,5,2434,399
+pmc_000020::chunk_00003,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Complex Challenges and the Virtue of Simplicity,0,xml_top_level_sec,3,16,2,5,2338,377
+pmc_000020::chunk_00004,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Complex Challenges and the Virtue of Simplicity,0,xml_top_level_sec,4,16,3,5,2492,390
+pmc_000020::chunk_00005,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Complex Challenges and the Virtue of Simplicity,0,xml_top_level_sec,5,16,4,5,1603,257
+pmc_000020::chunk_00006,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Evolution in Action,1,xml_top_level_sec,6,16,0,4,19,3
+pmc_000020::chunk_00007,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Evolution in Action,1,xml_top_level_sec,7,16,1,4,2314,389
+pmc_000020::chunk_00008,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Evolution in Action,1,xml_top_level_sec,8,16,2,4,2438,399
+pmc_000020::chunk_00009,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,Evolution in Action,1,xml_top_level_sec,9,16,3,4,2115,330
+pmc_000020::chunk_00010,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The Limits to Truth,2,xml_top_level_sec,10,16,0,3,19,4
+pmc_000020::chunk_00011,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The Limits to Truth,2,xml_top_level_sec,11,16,1,3,2453,400
+pmc_000020::chunk_00012,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The Limits to Truth,2,xml_top_level_sec,12,16,2,3,1744,286
+pmc_000020::chunk_00013,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The First Steps to Freedom,3,xml_top_level_sec,13,16,0,3,26,5
+pmc_000020::chunk_00014,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The First Steps to Freedom,3,xml_top_level_sec,14,16,1,3,2433,380
+pmc_000020::chunk_00015,pmc_000020,PMC000xxxxxx/PMC212697.xml,Digital Evolution,The First Steps to Freedom,3,xml_top_level_sec,15,16,2,3,2110,328

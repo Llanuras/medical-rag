@@ -1,0 +1,7 @@
+metric,value
+input_records,500
+eligible_records,500
+total_chunks,731
+persist_directory,archive/experiments/indexes/chroma_limit500
+embedding_model,sentence-transformers/all-MiniLM-L6-v2
+split_chunks,261

@@ -1,0 +1,7 @@
+field,availability_rate,future_rag_usage,recommendation
+title,0.9998693843431012,检索文本增强、结果展示,保留
+journal,1.0,期刊 metadata filter,保留
+pub_year,1.0,年份 metadata filter,保留
+pmid,0.9636235395536863,PubMed 原文追溯,保留
+pmcid,1.0,PMC 原文追溯,保留
+source_file,1.0,本地溯源和调试,保留

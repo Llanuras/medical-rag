@@ -1,0 +1,4 @@
+route,records,chunks,chunks_per_record_mean,chunks_per_record_median,chunks_per_record_p95
+recursive_fallback_no_section,7,32,4.571428571428571,4.0,7.0
+semantic_section,12,375,31.25,29.5,64.94999999999999
+whole_document_under_512,1,1,1.0,1.0,1.0

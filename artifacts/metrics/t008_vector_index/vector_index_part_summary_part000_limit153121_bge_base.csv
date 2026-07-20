@@ -1,0 +1,2 @@
+part_id,part_file,chunk_count,status,indexed_at,start_chunk_id,end_chunk_id
+0,/root/autodl-tmp/medical_rag/artifacts/datasets/chunks/pmc_chunks_limit153121_part000.parquet,64853,complete,2026-07-08T00:59:35,PMCID:PMC176545::chunk_00000,PMCID:PMC555851::chunk_00019

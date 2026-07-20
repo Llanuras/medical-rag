@@ -1,0 +1,4 @@
+strategy,records,total_chunks,chunks_per_record_mean,chunks_per_record_median,chunks_per_record_p95,chunk_token_len_approx_mean,chunk_token_len_approx_p95,seconds,section_source_breakdown
+whole_document,20,20,1.0,1.0,1.0,0.0,0.0,0.003,whole_document_no_split=20
+sliding_window,20,252,12.6,9.5,36.400000000000006,354.5357142857143,399.0,0.046,full_text_sliding_window=252
+semantic_section_recursive,20,311,15.55,10.0,41.400000000000006,272.7106109324759,399.0,0.119,record_title_abstract=20; xml_body_fallback=27; xml_top_level_sec=264

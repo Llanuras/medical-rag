@@ -1,0 +1,25 @@
+{
+  "source_files": [
+    "data/reference/mesh/2026/desc2026.gz",
+    "data/reference/mesh/2026/supp2026.gz"
+  ],
+  "descriptor_count": 31110,
+  "supplemental_count": 324038,
+  "qualifier_count": 0,
+  "concept_count": 355148,
+  "total_terms": 983486,
+  "unique_terms": 983486,
+  "skipped_terms": 12,
+  "skipped_breakdown": {
+    "invalid_term": 10,
+    "record_without_valid_terms": 2
+  },
+  "max_terms_per_concept": 30,
+  "min_term_len": 2,
+  "output_file_sizes_bytes": {
+    "artifacts/terminology/mesh_2026/medical_synonyms_mesh.jsonl": 133705906,
+    "artifacts/terminology/mesh_2026/medical_synonyms_mesh.csv": 87609970,
+    "artifacts/terminology/mesh_2026/term_to_concept_mesh.json": 206694186
+  },
+  "elapsed_seconds": 77.832
+}

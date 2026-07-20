@@ -1,0 +1,21 @@
+scope,concept,variant_forms_found,total_mentions,forms
+corpus,HIV/AIDS,4,5940,\bHIV(?:-1)?\b=4931; \bAIDS\b=880; \bhuman immunodeficiency virus(?: type 1)?\b=109; \bacquired immunodeficiency syndrome\b=20
+corpus,PCR,4,7780,\bPCR\b=6232; \bpolymerase chain reaction\b=212; \breverse transcription PCR\b=10; \bRT-PCR\b=1326
+corpus,confidence interval,3,4523,\bCI\b=2064; \bconfidence intervals?\b=869; \b95%\s*CI\b=1590
+corpus,odds ratio,2,1980,\bOR\b=1376; \bodds ratios?\b=604
+corpus,cerebrospinal fluid,2,1237,\bCSF\b=1122; \bcerebrospinal fluid\b=115
+corpus,myocardial infarction,3,621,\bMI\b=329; \bmyocardial infarction\b=249; \bheart attack\b=43
+corpus,Pneumocystis pneumonia,4,393,\bPCP\b=356; \bPneumocystis pneumonia\b=6; \bPneumocystis jiroveci\b=9; \bPneumocystis carinii\b=22
+corpus,non-small cell lung cancer,3,262,\bNSCLC\b=208; \bnon-small cell lung cancer\b=45; \bnon-small-cell lung cancer\b=9
+corpus,ulcerative colitis,4,345,\bUC\b=133; \bulcerative colitis\b=70; \binflammatory bowel disease\b=35; \bIBD\b=107
+corpus,corticosteroids,3,954,\bcorticosteroids?\b=285; \bsteroids?\b=399; \bglucocorticoids?\b=270
+sample,HIV/AIDS,4,35,\bHIV(?:-1)?\b=29; \bAIDS\b=4; \bhuman immunodeficiency virus(?: type 1)?\b=1; \bacquired immunodeficiency syndrome\b=1
+sample,PCR,4,61,\bPCR\b=48; \bpolymerase chain reaction\b=1; \breverse transcription PCR\b=1; \bRT-PCR\b=11
+sample,confidence interval,3,49,\bCI\b=22; \bconfidence intervals?\b=10; \b95%\s*CI\b=17
+sample,odds ratio,2,13,\bOR\b=5; \bodds ratios?\b=8
+sample,cerebrospinal fluid,1,1,\bcerebrospinal fluid\b=1
+sample,myocardial infarction,1,1,\bmyocardial infarction\b=1
+sample,Pneumocystis pneumonia,0,0,
+sample,non-small cell lung cancer,0,0,
+sample,ulcerative colitis,0,0,
+sample,corticosteroids,3,7,\bcorticosteroids?\b=3; \bsteroids?\b=1; \bglucocorticoids?\b=3

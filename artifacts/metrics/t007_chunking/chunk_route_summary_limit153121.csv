@@ -1,0 +1,6 @@
+split_strategy,document_count,chunk_count
+recursive_fallback_no_section,5699,26156
+semantic_section,124996,3027781
+whole_document_under_512,2844,3141
+drop_no_text,15,0
+no_body_for_fulltext,19567,0

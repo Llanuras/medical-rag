@@ -1,0 +1,8 @@
+filter_name,where,hit_count,status,note
+split_strategy_semantic_section,{'split_strategy': 'semantic_section'},5,ok,matched
+article_type_research_article,{'article_type': 'research-article'},5,ok,matched
+pub_year_2010_string,{'pub_year': '2010'},5,ok,matched
+journal_plos_one,{'journal': 'PLoS ONE'},5,ok,matched
+sample_pub_year,{'pub_year': '2003'},5,ok,matched
+real_pmcid,{'pmcid': 'PMC176545'},5,ok,matched
+no_result_filter,{'pmcid': '__NO_SUCH_PMCID__'},0,ok,empty result expected

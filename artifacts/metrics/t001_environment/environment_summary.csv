@@ -1,0 +1,17 @@
+item,value
+cwd,/root/autodl-tmp/medical_rag
+python_version,3.12.3
+data_dir,data/raw/pmc_oa_comm
+data_dir_exists,True
+xml_count,153121
+autodl_tmp_free_gb,124.02
+dependency_pandas,OK
+dependency_datasets,OK
+dependency_bs4,OK
+dependency_lxml,OK
+dependency_transformers,OK
+dependency_matplotlib,OK
+dependency_chromadb,OK
+dependency_langchain,OK
+dependency_langchain_chroma,OK
+dependency_langchain_community,OK

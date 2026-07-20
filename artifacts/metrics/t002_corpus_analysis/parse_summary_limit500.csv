@@ -1,0 +1,8 @@
+metric,value
+data_dir,data/raw/pmc_oa_comm
+target_limit,500
+selected_xml,500
+parsed_success,500
+parsed_failed,0
+dataset_num_rows,500
+dataset_columns,"record_id,source_file,title,abstract,body,journal,pub_date,pub_year,pmid,pmcid,article_type,text_title_abstract,text_full"

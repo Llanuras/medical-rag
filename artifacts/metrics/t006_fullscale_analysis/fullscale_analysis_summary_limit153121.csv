@@ -1,0 +1,17 @@
+metric,value
+processed_date,2026-06-30T21:28:32
+input_xml,153121
+parsed_success,153121
+parsed_failed,0
+resume_existing_rows,153121
+elapsed_seconds_resume_and_finalize,1854.724
+output_prefix,limit153121
+light_table,artifacts/metrics/t006_fullscale_analysis/pmc_records_light_limit153121.csv
+report,reports/formal/RAG数据分析与设计说明_limit153121.md
+chroma_created,false
+chunk_dataset_created,false
+pdf_created,false
+disk_path,/Users/plain/Documents/实习/百度大模型/medical_rag
+disk_total_gb,926.35
+disk_used_gb,530.16
+disk_free_gb,396.19

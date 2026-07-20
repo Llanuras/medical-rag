@@ -1,0 +1,2 @@
+term,count,note
+SKIPPED_FULLSCALE_TRIGRAM_LIGHT_LEXICAL_PASS,,全量 trigram 在轻量 lexical pass 中跳过，以避免 15w 全文 Counter 长尾导致运行过慢。

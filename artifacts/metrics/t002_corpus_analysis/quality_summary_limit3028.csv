@@ -1,0 +1,12 @@
+metric,value
+total_records,3028
+too_short_abstract_count,318
+empty_title_count,0
+empty_abstract_count,253
+empty_body_count,0
+encoding_issue_count,0
+duplicate_title_abstract_count,0
+duplicate_pmid_count,0
+duplicate_pmcid_count,0
+quality_decision_keep,2710
+quality_decision_keep_with_warning,318

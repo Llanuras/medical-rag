@@ -1,0 +1,7 @@
+field,availability_rate,future_rag_usage,risk,recommendation
+title,1.0,增强检索文本，作为标题上下文,可用率高，适合作为 metadata,保留
+journal,1.0,metadata filter，支持按期刊过滤,可用率高，适合作为 metadata,保留
+pub_year,1.0,metadata filter，支持近年文献过滤,可用率高，适合作为 metadata,保留
+pmid,0.726,PubMed 原文追溯和 citation,可用率不足，使用时需要 fallback 或人工确认,保留
+pmcid,1.0,PMC 原文追溯和 citation,可用率高，适合作为 metadata,保留
+source_file,1.0,本地调试和数据溯源,可用率高，适合作为 metadata,保留

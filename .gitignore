@@ -1,0 +1,45 @@
+# Operating systems and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Data, generated resources, indexes and model caches
+data/
+artifacts/datasets/
+artifacts/indexes/
+artifacts/models/
+artifacts/terminology/
+
+# Large record-level metrics; aggregate metrics remain versioned
+artifacts/metrics/t002_corpus_analysis/fulltext_chroma_document_manifest_limit3028.csv
+artifacts/metrics/t002_corpus_analysis/fulltext_chroma_document_manifest_limit3028_hashidf.csv
+artifacts/metrics/t002_corpus_analysis/fulltext_chroma_document_manifest_limit3028_tfidf.csv
+artifacts/metrics/t005_routed_minilm/fulltext_chroma_routed_minilm_manifest_limit3028_routed_minilm.csv
+artifacts/metrics/t006_fullscale_analysis/full_text_section_analysis_light_limit153121.csv
+artifacts/metrics/t006_fullscale_analysis/pmc_records_light_limit153121.csv
+artifacts/metrics/t006_fullscale_analysis/token_length_records_light_limit153121.csv
+artifacts/metrics/t007_chunking/excluded_documents_limit153121.csv
+
+# Record-level text samples; Markdown previews remain versioned
+reports/samples/*.csv
+reports/samples/*.jsonl
+
+# Runtime-only and local migration material
+logs/
+runtime/
+archive/
+backups/
+releases/**/*.tar.gz

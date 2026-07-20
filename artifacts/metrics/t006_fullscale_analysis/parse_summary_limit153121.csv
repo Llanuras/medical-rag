@@ -1,0 +1,10 @@
+metric,value
+data_dir,data/raw/pmc_oa_comm
+expected_total_xml,153121
+selected_xml,153121
+parsed_success,153121
+parsed_failed,0
+output_prefix,limit153121
+full_text_saved,false
+chunk_dataset_created,false
+chroma_created,false
