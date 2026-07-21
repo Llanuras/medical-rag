@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-07-21T21:54:08",
+  "output_prefix": "smoke1000_limit153121",
+  "algorithm": "bm25_okapi",
+  "tokenizer": "medical_tokenize_v1",
+  "k1": 1.5,
+  "b": 0.75,
+  "source_manifest": "/root/autodl-tmp/medical_rag/artifacts/datasets/chunks/pmc_chunks_limit153121_manifest.csv",
+  "selected_part_ids": [
+    0
+  ],
+  "selected_part_count": 1,
+  "max_parts": null,
+  "max_chunks": 1000,
+  "document_count": 1000,
+  "total_tokens": 250102,
+  "average_document_length": 250.102,
+  "vocabulary_size": 15362,
+  "index_path": "/root/autodl-tmp/medical_rag/artifacts/indexes/bm25/pmc_fulltext_bm25_smoke1000_limit153121/bm25_index.pkl",
+  "chunk_store_path": "/root/autodl-tmp/medical_rag/artifacts/indexes/bm25/pmc_fulltext_bm25_smoke1000_limit153121/chunk_store.parquet",
+  "index_size_bytes": 1852941,
+  "chunk_store_size_bytes": 491532,
+  "elapsed_seconds": 0.7085537910461426
+}
