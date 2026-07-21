@@ -8,7 +8,7 @@ medical_rag/
 │   ├── common/                      # PMC 解析和通用工具
 │   ├── embeddings/                  # embedding 辅助实现
 │   ├── query/                       # 查询理解与术语匹配
-│   └── retrieval/                   # 向量模型和 Chroma 公共逻辑
+│   └── retrieval/                   # 向量/BM25 检索、融合、重排序与流水线
 ├── scripts/                         # 可直接执行的流水线入口
 ├── data/
 │   ├── raw/pmc_oa_comm/             # 原始 PMC OA XML
@@ -17,6 +17,7 @@ medical_rag/
 │   ├── datasets/records/            # 解析后的文档记录
 │   ├── datasets/chunks/             # 正式 chunk 分片与 manifest
 │   ├── indexes/chroma/              # 正式 Chroma 持久化索引
+│   ├── indexes/bm25/                # BM25 倒排索引与 chunk store
 │   ├── metrics/                     # 按任务编号归档的 CSV/JSON 统计和验证结果
 │   │   ├── t001_environment/        # 环境准备与验证指标
 │   │   ├── t002_corpus_analysis/    # limit500/3028 语料分析与历史检索指标
@@ -25,7 +26,8 @@ medical_rag/
 │   │   ├── t007_chunking/           # chunk 处理与质量指标
 │   │   ├── t008_vector_index/       # BGE 索引构建与验证指标
 │   │   ├── t009_query_understanding/ # 静态查询理解测试指标
-│   │   └── t010_mesh_query_understanding/ # MeSH 查询理解指标
+│   │   ├── t010_mesh_query_understanding/ # MeSH 查询理解指标
+│   │   └── t014_multipath_retrieval/ # 多路检索、融合与 reranker 指标
 │   ├── models/                      # 项目级模型缓存
 │   └── terminology/                 # 生成后的术语资源
 ├── reports/
@@ -48,7 +50,7 @@ medical_rag/
 
 ## `src` 与 `scripts` 的边界
 
-- `src/medical_rag/`：可复用、可导入、可单元测试的业务逻辑，例如 PMC 解析工具、查询理解和向量库公共函数。
+- `src/medical_rag/`：可复用、可导入、可单元测试的业务逻辑，例如 PMC 解析工具、查询理解、向量/BM25 检索、融合、重排序和多准则评分。
 - `scripts/`：面向具体任务的命令行入口，负责参数解析、批处理、进度控制和调用 `src/medical_rag/`。
 - 如果一段逻辑会被两个以上脚本复用，应进入 `src/medical_rag/`，脚本中只保留任务编排。
 

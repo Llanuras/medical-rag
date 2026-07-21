@@ -5,7 +5,7 @@
 ## 项目入口
 
 - `src/medical_rag/`：可复用、可导入和可测试的核心模块。
-- `scripts/`：数据分析、chunking、索引和查询理解的命令行入口。
+- `scripts/`：数据分析、chunking、索引、查询理解和检索流水线的命令行入口。
 - `docs/PROJECT_STRUCTURE.md`：目录职责和正式产物位置。
 - `docs/NAMING_CONVENTIONS.md`：目录、代码和产物命名约定。
 
@@ -15,6 +15,7 @@
 - MeSH 原始资源：`data/reference/mesh/2026/`
 - chunk 数据集：`artifacts/datasets/chunks/`
 - 正式 Chroma 索引：`artifacts/indexes/chroma/pmc_fulltext_bge_base_limit153121/`
+- BM25 索引：`artifacts/indexes/bm25/`
 - HuggingFace 缓存：`artifacts/models/huggingface/`
 - 任务指标：`artifacts/metrics/tNNN_<task_slug>/`
 - 正式报告：`reports/formal/`
