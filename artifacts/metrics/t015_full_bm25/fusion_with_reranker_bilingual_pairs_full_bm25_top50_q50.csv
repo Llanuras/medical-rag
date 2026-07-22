@@ -1,0 +1,19 @@
+pair_id,strategy,query_id_a,query_a,query_id_b,query_b,top10_doc_overlap_count,top10_doc_overlap_rate,top10_doc_jaccard
+P01,simple,Q001,metformin cardiovascular outcomes in type 2 diabetes,Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,4,0.4,0.25
+P01,rrf,Q001,metformin cardiovascular outcomes in type 2 diabetes,Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,4,0.4,0.25
+P01,weighted,Q001,metformin cardiovascular outcomes in type 2 diabetes,Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,3,0.3,0.17647058823529413
+P02,simple,Q011,EGFR mutation and treatment response in non-small cell lung cancer,Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,3,0.3,0.17647058823529413
+P02,rrf,Q011,EGFR mutation and treatment response in non-small cell lung cancer,Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,3,0.3,0.17647058823529413
+P02,weighted,Q011,EGFR mutation and treatment response in non-small cell lung cancer,Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,3,0.3,0.17647058823529413
+P03,simple,Q031,PCR detection of viral DNA,Q041,PCR如何用于病毒核酸检测？,5,0.5,0.3333333333333333
+P03,rrf,Q031,PCR detection of viral DNA,Q041,PCR如何用于病毒核酸检测？,5,0.5,0.3333333333333333
+P03,weighted,Q031,PCR detection of viral DNA,Q041,PCR如何用于病毒核酸检测？,4,0.4,0.25
+P04,simple,Q024,HIV reverse transcriptase inhibitor resistance,Q042,HIV逆转录酶抑制剂的耐药机制是什么？,0,0.0,0.0
+P04,rrf,Q024,HIV reverse transcriptase inhibitor resistance,Q042,HIV逆转录酶抑制剂的耐药机制是什么？,0,0.0,0.0
+P04,weighted,Q024,HIV reverse transcriptase inhibitor resistance,Q042,HIV逆转录酶抑制剂的耐药机制是什么？,0,0.0,0.0
+P05,simple,Q028,macrophage activation in innate immune response,Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,1,0.1,0.05263157894736842
+P05,rrf,Q028,macrophage activation in innate immune response,Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,1,0.1,0.05263157894736842
+P05,weighted,Q028,macrophage activation in innate immune response,Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,1,0.1,0.05263157894736842
+P06,simple,Q013,BRCA1 DNA repair and hereditary breast cancer,Q044,BRCA1与乳腺癌遗传风险有什么关系？,2,0.2,0.1111111111111111
+P06,rrf,Q013,BRCA1 DNA repair and hereditary breast cancer,Q044,BRCA1与乳腺癌遗传风险有什么关系？,2,0.2,0.1111111111111111
+P06,weighted,Q013,BRCA1 DNA repair and hereditary breast cancer,Q044,BRCA1与乳腺癌遗传风险有什么关系？,1,0.1,0.05263157894736842

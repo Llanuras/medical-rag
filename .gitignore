@@ -33,6 +33,21 @@ artifacts/metrics/t006_fullscale_analysis/pmc_records_light_limit153121.csv
 artifacts/metrics/t006_fullscale_analysis/token_length_records_light_limit153121.csv
 artifacts/metrics/t007_chunking/excluded_documents_limit153121.csv
 
+# T014 record-level retrieval text; aggregate benchmark metrics remain versioned
+artifacts/metrics/t014_multipath_retrieval/fusion_candidates_*.jsonl
+artifacts/metrics/t014_multipath_retrieval/fusion_with_reranker_results_*.csv
+artifacts/metrics/t014_multipath_retrieval/fusion_with_reranker_results_*.jsonl
+artifacts/metrics/t014_multipath_retrieval/fusion_with_reranker_annotation_pool_*.csv
+
+# T015 record-level retrieval text and manually judged previews; aggregate metrics remain versioned
+artifacts/metrics/t015_full_bm25/fusion_candidates_*.jsonl
+artifacts/metrics/t015_full_bm25/fusion_with_reranker_results_*.csv
+artifacts/metrics/t015_full_bm25/fusion_with_reranker_results_*.jsonl
+artifacts/metrics/t015_full_bm25/fusion_with_reranker_annotation_pool_*.csv
+artifacts/metrics/t015_full_bm25/*smoke_q5*
+artifacts/metrics/t015_full_bm25/run_status_*.txt
+reports/formal/*full_bm25_smoke_q5.md
+
 # Record-level text samples; Markdown previews remain versioned
 reports/samples/*.csv
 reports/samples/*.jsonl
