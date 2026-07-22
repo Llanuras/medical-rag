@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from medical_rag.query.understanding import BGE_QUERY_INSTRUCTION
-from medical_rag.retrieval.bm25 import BM25Retriever
+from medical_rag.retrieval.bm25 import BM25Retriever, DEFAULT_BM25_PART000_DIR
 from medical_rag.retrieval.vector_store import (
     DEFAULT_MODEL_NAME,
     clean_metadata_value,
@@ -17,7 +17,7 @@ from medical_rag.retrieval.vector_store import (
 
 DEFAULT_CHROMA_DIR = Path("artifacts/indexes/chroma/pmc_fulltext_bge_base_limit153121")
 DEFAULT_CHROMA_COLLECTION = "pmc_fulltext_bge_base_limit153121"
-DEFAULT_BM25_DIR = Path("artifacts/indexes/bm25/pmc_fulltext_bm25_part000_limit153121")
+DEFAULT_BM25_DIR = DEFAULT_BM25_PART000_DIR
 FUSION_STRATEGIES = {"simple", "rrf", "weighted"}
 
 
@@ -258,6 +258,25 @@ class MultiPathRetriever:
             current["metadata"] = {**result.get("metadata", {}), **current.get("metadata", {})}
         return merged
 
+    @staticmethod
+    def _round_robin_ids(
+        vector_results: list[dict[str, Any]],
+        keyword_results: list[dict[str, Any]],
+    ) -> list[str]:
+        """Alternate retrieval paths while preserving each path's rank and removing duplicates."""
+        ordered: list[str] = []
+        seen: set[str] = set()
+        width = max(len(vector_results), len(keyword_results))
+        for index in range(width):
+            for results in (vector_results, keyword_results):
+                if index >= len(results):
+                    continue
+                chunk_id = str(results[index]["chunk_id"])
+                if chunk_id not in seen:
+                    seen.add(chunk_id)
+                    ordered.append(chunk_id)
+        return ordered
+
     def fuse_results(
         self,
         vector_results: list[dict[str, Any]],
@@ -268,11 +287,16 @@ class MultiPathRetriever:
     ) -> list[dict[str, Any]]:
         if fusion_strategy not in FUSION_STRATEGIES:
             raise ValueError(f"fusion_strategy must be one of {sorted(FUSION_STRATEGIES)}")
+        if top_k <= 0:
+            return []
         merged = self._merge_candidates(vector_results, keyword_results)
         if fusion_strategy == "simple":
-            ordered_ids = list(dict.fromkeys([item["chunk_id"] for item in [*vector_results, *keyword_results]]))
+            ordered_ids = self._round_robin_ids(vector_results, keyword_results)
+            ranked = []
             for position, chunk_id in enumerate(ordered_ids, start=1):
-                merged[chunk_id]["fusion_score"] = 1.0 / position
+                item = merged[chunk_id]
+                item["fusion_score"] = 1.0 / position
+                ranked.append(item)
         elif fusion_strategy == "rrf":
             for item in merged.values():
                 score = 0.0
@@ -281,6 +305,15 @@ class MultiPathRetriever:
                 if item.get("keyword_rank") is not None:
                     score += 1.0 / (self.rrf_k + int(item["keyword_rank"]))
                 item["fusion_score"] = score
+            ranked = sorted(
+                merged.values(),
+                key=lambda item: (
+                    -float(item.get("fusion_score") or 0.0),
+                    item.get("vector_rank") or 10**9,
+                    item.get("keyword_rank") or 10**9,
+                    item["chunk_id"],
+                ),
+            )
         else:
             vector_scores = {
                 item["chunk_id"]: float(item["vector_score"])
@@ -299,17 +332,61 @@ class MultiPathRetriever:
                     self.vector_weight * normalized_vector.get(chunk_id, 0.0)
                     + self.keyword_weight * normalized_keyword.get(chunk_id, 0.0)
                 )
-        for item in merged.values():
+            ranked = sorted(
+                merged.values(),
+                key=lambda item: (
+                    -float(item.get("fusion_score") or 0.0),
+                    item.get("vector_rank") or 10**9,
+                    item.get("keyword_rank") or 10**9,
+                    item["chunk_id"],
+                ),
+            )
+        selected = ranked[:top_k]
+        for rank, item in enumerate(selected, start=1):
             item["fusion_strategy"] = fusion_strategy
-        return sorted(
-            merged.values(),
-            key=lambda item: (
-                -float(item.get("fusion_score") or 0.0),
-                item.get("vector_rank") or 10**9,
-                item.get("keyword_rank") or 10**9,
-                item["chunk_id"],
-            ),
-        )[:top_k]
+            item["fusion_rank"] = rank
+        return selected
+
+    def retrieve_paths(
+        self,
+        query_info: Any,
+        *,
+        top_k_vector: int = 50,
+        top_k_keyword: int = 50,
+        where: dict[str, Any] | None = None,
+        strict: bool = False,
+    ) -> dict[str, Any]:
+        """Run each retrieval path once so multiple fusion policies can reuse identical candidates."""
+        query = _as_query_dict(query_info)
+        effective_where = _merge_where(query.get("where_filter"), where)
+        warnings: list[str] = []
+        vector_results: list[dict[str, Any]] = []
+        keyword_results: list[dict[str, Any]] = []
+        try:
+            vector_results = self.vector_search(query, top_k=top_k_vector, where=effective_where)
+        except Exception as exc:
+            if strict:
+                raise RuntimeError(f"vector retrieval failed: {type(exc).__name__}: {exc}") from exc
+            warnings.append(f"vector retrieval failed; continuing with partial results: {type(exc).__name__}: {exc}")
+        try:
+            keyword_results = self.keyword_search(query, top_k=top_k_keyword, where=effective_where)
+        except Exception as exc:
+            if strict:
+                raise RuntimeError(f"keyword retrieval failed: {type(exc).__name__}: {exc}") from exc
+            warnings.append(f"keyword retrieval failed; continuing with partial results: {type(exc).__name__}: {exc}")
+        if not vector_results and not keyword_results:
+            message = "both retrieval paths returned no candidates"
+            if strict:
+                raise RuntimeError(message)
+            warnings.append(message)
+        return {
+            "vector_results": vector_results,
+            "keyword_results": keyword_results,
+            "warnings": warnings,
+            "where": effective_where,
+            "vector_result_count": len(vector_results),
+            "keyword_result_count": len(keyword_results),
+        }
 
     def retrieve(
         self,
@@ -320,34 +397,27 @@ class MultiPathRetriever:
         fusion_strategy: str = "rrf",
         fusion_top_k: int = 80,
         where: dict[str, Any] | None = None,
+        strict: bool = False,
     ) -> dict[str, Any]:
-        query = _as_query_dict(query_info)
-        effective_where = _merge_where(query.get("where_filter"), where)
-        warnings: list[str] = []
-        vector_results: list[dict[str, Any]] = []
-        keyword_results: list[dict[str, Any]] = []
-        try:
-            vector_results = self.vector_search(query, top_k=top_k_vector, where=effective_where)
-        except Exception as exc:
-            warnings.append(f"vector retrieval failed; continuing with partial results: {type(exc).__name__}: {exc}")
-        try:
-            keyword_results = self.keyword_search(query, top_k=top_k_keyword, where=effective_where)
-        except Exception as exc:
-            warnings.append(f"keyword retrieval failed; continuing with partial results: {type(exc).__name__}: {exc}")
-        if not vector_results and not keyword_results:
-            warnings.append("both retrieval paths returned no candidates")
+        paths = self.retrieve_paths(
+            query_info,
+            top_k_vector=top_k_vector,
+            top_k_keyword=top_k_keyword,
+            where=where,
+            strict=strict,
+        )
         fused = self.fuse_results(
-            vector_results,
-            keyword_results,
+            paths["vector_results"],
+            paths["keyword_results"],
             fusion_strategy=fusion_strategy,
             top_k=fusion_top_k,
         )
         return {
             "results": fused,
-            "warnings": warnings,
-            "where": effective_where,
-            "vector_result_count": len(vector_results),
-            "keyword_result_count": len(keyword_results),
+            "warnings": paths["warnings"],
+            "where": paths["where"],
+            "vector_result_count": paths["vector_result_count"],
+            "keyword_result_count": paths["keyword_result_count"],
             "fused_result_count": len(fused),
             "fusion_strategy": fusion_strategy,
             "vector_weight": self.vector_weight,

@@ -1,0 +1,51 @@
+query_id,query,category,language,pair_id,expected_fields,expected_filter_mode
+Q001,metformin cardiovascular outcomes in type 2 diabetes,drug_treatment,en,P01,"drug,disease,outcome",none
+Q002,aspirin secondary prevention after myocardial infarction,drug_treatment,en,,"drug,disease,treatment",none
+Q003,atorvastatin LDL cholesterol reduction and cardiovascular risk,drug_treatment,en,,"drug,outcome,disease",none
+Q004,warfarin anticoagulation stroke prevention in atrial fibrillation,drug_treatment,en,,"drug,disease,treatment",none
+Q005,beta blocker therapy mortality in chronic heart failure,drug_treatment,en,,"drug,disease,outcome",none
+Q006,insulin sensitivity obesity and type 2 diabetes,drug_treatment,en,,"drug,outcome,disease",none
+Q007,tamoxifen estrogen receptor positive breast cancer,drug_treatment,en,,"drug,gene/protein,disease",none
+Q008,cisplatin resistance in ovarian cancer treatment,drug_treatment,en,,"drug,disease,outcome",none
+Q009,antiretroviral therapy and HIV drug resistance,drug_treatment,en,,"drug,disease,outcome",none
+Q010,multidrug-resistant tuberculosis treatment,drug_treatment,en,,"disease,treatment,outcome",none
+Q011,EGFR mutation and treatment response in non-small cell lung cancer,mechanism_genetics,en,P02,"gene/protein,disease,outcome",none
+Q012,EGFR T790M tyrosine kinase inhibitor resistance,mechanism_genetics,en,,"gene/protein,drug,outcome",none
+Q013,BRCA1 DNA repair and hereditary breast cancer,mechanism_genetics,en,P06,"gene/protein,disease,mechanism",none
+Q014,TP53 mutation apoptosis and tumor suppression,mechanism_genetics,en,,"gene/protein,outcome,mechanism",none
+Q015,APC Wnt signaling in colorectal cancer,mechanism_genetics,en,,"gene/protein,disease,mechanism",none
+Q016,androgen receptor signaling in prostate cancer progression,mechanism_genetics,en,,"gene/protein,disease,outcome",none
+Q017,amyloid beta neurodegeneration in Alzheimer disease,mechanism_genetics,en,,"gene/protein,disease,mechanism",none
+Q018,alpha-synuclein and dopaminergic neurons in Parkinson disease,mechanism_genetics,en,,"gene/protein,disease,mechanism",none
+Q019,oxidative stress endothelial dysfunction and atherosclerosis,mechanism_genetics,en,,"mechanism,disease,outcome",none
+Q020,TGF beta renal fibrosis in chronic kidney disease,mechanism_genetics,en,,"gene/protein,disease,mechanism",none
+Q021,SARS coronavirus spike protein and ACE2 receptor,infection_immunity,en,,"disease,gene/protein,mechanism",none
+Q022,influenza neuraminidase inhibitor resistance,infection_immunity,en,,"disease,drug,outcome",none
+Q023,hepatitis C antiviral treatment response,infection_immunity,en,,"disease,drug,outcome",none
+Q024,HIV reverse transcriptase inhibitor resistance,infection_immunity,en,P04,"disease,drug,outcome",none
+Q025,Plasmodium falciparum antimalarial drug resistance,infection_immunity,en,,"organism,drug,outcome",none
+Q026,bacterial sepsis inflammatory cytokine response,infection_immunity,en,,"disease,gene/protein,outcome",none
+Q027,vaccine induced antibody immune response,infection_immunity,en,,"treatment,immune,outcome",none
+Q028,macrophage activation in innate immune response,infection_immunity,en,P05,"cell,immune,outcome",none
+Q029,interleukin 6 inflammation in rheumatoid arthritis,infection_immunity,en,,"gene/protein,disease,mechanism",none
+Q030,TNF alpha blockade in rheumatoid arthritis,infection_immunity,en,,"gene/protein,disease,treatment",none
+Q031,PCR detection of viral DNA,method_biomarker,en,P03,"method,target",none
+Q032,quantitative real-time PCR gene expression analysis,method_biomarker,en,,"method,outcome",none
+Q033,DNA microarray breast cancer gene expression classification,method_biomarker,en,,"method,disease,outcome",none
+Q034,RNA interference mediated gene silencing,method_biomarker,en,,"method,mechanism",none
+Q035,flow cytometry analysis of T cell activation,method_biomarker,en,,"method,cell,outcome",none
+Q036,immunohistochemistry detection of tumor biomarkers,method_biomarker,en,,"method,biomarker",none
+Q037,ELISA measurement of inflammatory cytokines,method_biomarker,en,,"method,biomarker",none
+Q038,survival analysis of prognostic biomarkers in cancer,method_biomarker,en,,"method,biomarker,outcome",none
+Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,bilingual,zh,P01,"drug,disease,outcome",none
+Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,bilingual,zh,P02,"gene/protein,disease,outcome",none
+Q041,PCR如何用于病毒核酸检测？,bilingual,zh,P03,"method,target",none
+Q042,HIV逆转录酶抑制剂的耐药机制是什么？,bilingual,zh,P04,"disease,drug,outcome",none
+Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,bilingual,zh,P05,"gene/protein,cell,outcome",none
+Q044,BRCA1与乳腺癌遗传风险有什么关系？,bilingual,zh,P06,"gene/protein,disease,outcome",none
+Q045,2003 Plasmodium falciparum gene expression research article,metadata_structure,en,,"pub_year,article_type",plan_only
+Q046,PLoS ONE breast cancer gene expression,metadata_structure,en,,journal,plan_only
+Q047,aspirin myocardial infarction before 2008,metadata_structure,en,,pub_year_lte,plan_only
+Q048,EGFR lung cancer after 2008,metadata_structure,en,,pub_year_gte,plan_only
+Q049,PCR viral detection methods section,metadata_structure,en,,section_title_norm,plan_only
+Q050,breast cancer gene expression results section research article,metadata_structure,en,,"article_type,section_title_norm",mixed

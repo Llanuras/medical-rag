@@ -10,7 +10,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT / "src") not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from medical_rag.retrieval.bm25 import DEFAULT_BM25_DIR, build_bm25_index
+from medical_rag.retrieval.bm25 import DEFAULT_BM25_PART000_DIR, build_bm25_index
 from medical_rag.retrieval.vector_store import Tee, human_seconds, now_iso
 
 
@@ -21,9 +21,9 @@ def parse_args() -> argparse.Namespace:
         default="artifacts/datasets/chunks/pmc_chunks_limit153121_manifest.csv",
     )
     parser.add_argument("--chunks_dir", default="artifacts/datasets/chunks")
-    parser.add_argument("--output_dir", default=str(DEFAULT_BM25_DIR))
-    parser.add_argument("--output_prefix", default="limit153121")
-    parser.add_argument("--max_parts", type=int, default=None)
+    parser.add_argument("--output_dir", default=str(DEFAULT_BM25_PART000_DIR))
+    parser.add_argument("--output_prefix", default="part000_limit153121")
+    parser.add_argument("--max_parts", type=int, default=1)
     parser.add_argument("--max_chunks", type=int, default=None)
     parser.add_argument("--force", action="store_true")
     return parser.parse_args()
@@ -32,6 +32,20 @@ def parse_args() -> argparse.Namespace:
 def _resolve(path: str) -> Path:
     value = Path(path)
     return value.resolve() if value.is_absolute() else (PROJECT_ROOT / value).resolve()
+
+
+def _public_stats(stats: dict) -> dict:
+    """Use project-relative paths in shareable metrics and reports."""
+    output = dict(stats)
+    for key in ("source_manifest", "index_path", "chunk_store_path"):
+        value = output.get(key)
+        if not value:
+            continue
+        try:
+            output[key] = str(Path(value).resolve().relative_to(PROJECT_ROOT))
+        except ValueError:
+            output[key] = Path(value).name
+    return output
 
 
 def make_report(stats: dict) -> str:
@@ -94,10 +108,11 @@ def main() -> int:
             max_chunks=args.max_chunks,
             force=args.force,
         )
+        public_stats = _public_stats(stats)
         metrics_path = metrics_dir / f"bm25_stats_{args.output_prefix}.json"
         report_path = reports_dir / f"BM25关键词索引构建报告_{args.output_prefix}.md"
-        metrics_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
-        report_path.write_text(make_report(stats), encoding="utf-8")
+        metrics_path.write_text(json.dumps(public_stats, ensure_ascii=False, indent=2), encoding="utf-8")
+        report_path.write_text(make_report(public_stats), encoding="utf-8")
         print(f"[DONE] indexed={stats['document_count']} vocabulary={stats['vocabulary_size']}")
         print(f"[METRICS] {metrics_path}")
         print(f"[REPORT] {report_path}")

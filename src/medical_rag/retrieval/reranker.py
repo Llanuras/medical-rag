@@ -91,7 +91,7 @@ class BGEReranker:
             return_tensors="pt",
         )
         encoded = {key: value.to(self.device) for key, value in encoded.items()}
-        with torch.no_grad():
+        with torch.inference_mode():
             logits = self.model(**encoded).logits
         if logits.ndim == 1:
             raw = logits

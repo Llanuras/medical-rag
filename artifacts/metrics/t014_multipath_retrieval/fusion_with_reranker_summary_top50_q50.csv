@@ -1,0 +1,151 @@
+query_id,query,category,language,fusion_strategy,vector_result_count,keyword_result_count,fused_candidate_count,final_result_count,filter_applied,where_json,filter_plan_json,retrieval_seconds,fusion_seconds,rerank_score_seconds,reranker_used
+Q001,metformin cardiovascular outcomes in type 2 diabetes,drug_treatment,en,simple,50,50,50,10,False,null,{},14.935053370893002,0.0004941970109939575,0.28720397874712944,True
+Q001,metformin cardiovascular outcomes in type 2 diabetes,drug_treatment,en,rrf,50,50,50,10,False,null,{},14.935053370893002,0.00014083459973335266,0.19664619117975235,True
+Q001,metformin cardiovascular outcomes in type 2 diabetes,drug_treatment,en,weighted,50,50,50,10,False,null,{},14.935053370893002,0.00019812583923339844,0.19376690313220024,True
+Q002,aspirin secondary prevention after myocardial infarction,drug_treatment,en,simple,50,50,50,10,False,null,{},0.1043536514043808,0.0006322488188743591,0.22657615318894386,True
+Q002,aspirin secondary prevention after myocardial infarction,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.1043536514043808,0.0001617521047592163,0.1958773471415043,True
+Q002,aspirin secondary prevention after myocardial infarction,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.1043536514043808,0.00020048022270202637,0.19963901862502098,True
+Q003,atorvastatin LDL cholesterol reduction and cardiovascular risk,drug_treatment,en,simple,50,50,50,10,False,null,{},0.19480571895837784,0.0007211118936538696,0.2285805605351925,True
+Q003,atorvastatin LDL cholesterol reduction and cardiovascular risk,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.19480571895837784,0.00018800050020217896,0.19976705685257912,True
+Q003,atorvastatin LDL cholesterol reduction and cardiovascular risk,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.19480571895837784,0.0002302415668964386,0.20359425246715546,True
+Q004,warfarin anticoagulation stroke prevention in atrial fibrillation,drug_treatment,en,simple,50,50,50,10,False,null,{},0.07823777943849564,0.0005187205970287323,0.20693909749388695,True
+Q004,warfarin anticoagulation stroke prevention in atrial fibrillation,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.07823777943849564,0.00019762292504310608,0.18630610033869743,True
+Q004,warfarin anticoagulation stroke prevention in atrial fibrillation,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.07823777943849564,0.00022727996110916138,0.1917024701833725,True
+Q005,beta blocker therapy mortality in chronic heart failure,drug_treatment,en,simple,50,50,50,10,False,null,{},0.10891091451048851,0.0002616569399833679,0.21667073667049408,True
+Q005,beta blocker therapy mortality in chronic heart failure,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.10891091451048851,0.00015560537576675415,0.20285220816731453,True
+Q005,beta blocker therapy mortality in chronic heart failure,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.10891091451048851,0.00019910931587219238,0.1982787884771824,True
+Q006,insulin sensitivity obesity and type 2 diabetes,drug_treatment,en,simple,50,50,50,10,False,null,{},0.12603894621133804,0.00022130832076072693,0.20498014986515045,True
+Q006,insulin sensitivity obesity and type 2 diabetes,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.12603894621133804,0.0001554638147354126,0.20518893003463745,True
+Q006,insulin sensitivity obesity and type 2 diabetes,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.12603894621133804,0.00019998103380203247,0.2046167366206646,True
+Q007,tamoxifen estrogen receptor positive breast cancer,drug_treatment,en,simple,50,50,50,10,False,null,{},0.11802401393651962,0.00026230886578559875,0.21014007553458214,True
+Q007,tamoxifen estrogen receptor positive breast cancer,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.11802401393651962,0.00015612691640853882,0.2013065293431282,True
+Q007,tamoxifen estrogen receptor positive breast cancer,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.11802401393651962,0.00019893795251846313,0.1992032453417778,True
+Q008,cisplatin resistance in ovarian cancer treatment,drug_treatment,en,simple,50,50,50,10,False,null,{},0.07657832652330399,0.00023487582802772522,0.21219496801495552,True
+Q008,cisplatin resistance in ovarian cancer treatment,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.07657832652330399,0.00015999004244804382,0.20740751549601555,True
+Q008,cisplatin resistance in ovarian cancer treatment,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.07657832652330399,0.00019573792815208435,0.21152766793966293,True
+Q009,antiretroviral therapy and HIV drug resistance,drug_treatment,en,simple,50,50,50,10,False,null,{},0.10715910419821739,0.00022266805171966553,0.1929478831589222,True
+Q009,antiretroviral therapy and HIV drug resistance,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.10715910419821739,0.00015288591384887695,0.18936346098780632,True
+Q009,antiretroviral therapy and HIV drug resistance,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.10715910419821739,0.00019507110118865967,0.1900211237370968,True
+Q010,multidrug-resistant tuberculosis treatment,drug_treatment,en,simple,50,50,50,10,False,null,{},0.10619378089904785,0.00025886669754981995,0.20680109038949013,True
+Q010,multidrug-resistant tuberculosis treatment,drug_treatment,en,rrf,50,50,50,10,False,null,{},0.10619378089904785,0.00016960501670837402,0.2004312239587307,True
+Q010,multidrug-resistant tuberculosis treatment,drug_treatment,en,weighted,50,50,50,10,False,null,{},0.10619378089904785,0.00020638853311538696,0.20820831507444382,True
+Q011,EGFR mutation and treatment response in non-small cell lung cancer,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.2328234203159809,0.00024442747235298157,0.21273716911673546,True
+Q011,EGFR mutation and treatment response in non-small cell lung cancer,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.2328234203159809,0.00017160549759864807,0.20683074742555618,True
+Q011,EGFR mutation and treatment response in non-small cell lung cancer,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.2328234203159809,0.00021719187498092651,0.20766606554389,True
+Q012,EGFR T790M tyrosine kinase inhibitor resistance,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.0956963300704956,0.00023400411009788513,0.21610988304018974,True
+Q012,EGFR T790M tyrosine kinase inhibitor resistance,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.0956963300704956,0.00017489492893218994,0.21031026542186737,True
+Q012,EGFR T790M tyrosine kinase inhibitor resistance,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.0956963300704956,0.0002137608826160431,0.20512892678380013,True
+Q013,BRCA1 DNA repair and hereditary breast cancer,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.10133986547589302,0.00022267550230026245,0.21429593116044998,True
+Q013,BRCA1 DNA repair and hereditary breast cancer,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.10133986547589302,0.00015762820839881897,0.21053211018443108,True
+Q013,BRCA1 DNA repair and hereditary breast cancer,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.10133986547589302,0.00020071864128112793,0.21432071179151535,True
+Q014,TP53 mutation apoptosis and tumor suppression,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.08333060517907143,0.00021535158157348633,0.2091818004846573,True
+Q014,TP53 mutation apoptosis and tumor suppression,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.08333060517907143,0.0001578405499458313,0.20483491942286491,True
+Q014,TP53 mutation apoptosis and tumor suppression,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.08333060517907143,0.00019825994968414307,0.20748190209269524,True
+Q015,APC Wnt signaling in colorectal cancer,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.07060560956597328,0.0002819858491420746,0.2166450470685959,True
+Q015,APC Wnt signaling in colorectal cancer,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.07060560956597328,0.00016091391444206238,0.21263134479522705,True
+Q015,APC Wnt signaling in colorectal cancer,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.07060560956597328,0.00019571557641029358,0.20915374532341957,True
+Q016,androgen receptor signaling in prostate cancer progression,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.10303021594882011,0.00023394078016281128,0.21315045282244682,True
+Q016,androgen receptor signaling in prostate cancer progression,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.10303021594882011,0.00016187503933906555,0.21049877256155014,True
+Q016,androgen receptor signaling in prostate cancer progression,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.10303021594882011,0.00020410865545272827,0.20623242855072021,True
+Q017,amyloid beta neurodegeneration in Alzheimer disease,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.10190702974796295,0.00023242086172103882,0.21560348942875862,True
+Q017,amyloid beta neurodegeneration in Alzheimer disease,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.10190702974796295,0.00019476935267448425,0.21322165057063103,True
+Q017,amyloid beta neurodegeneration in Alzheimer disease,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.10190702974796295,0.0001987256109714508,0.21033567562699318,True
+Q018,alpha-synuclein and dopaminergic neurons in Parkinson disease,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.09544125199317932,0.0002713315188884735,0.21677151322364807,True
+Q018,alpha-synuclein and dopaminergic neurons in Parkinson disease,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.09544125199317932,0.0001715235412120819,0.20929880812764168,True
+Q018,alpha-synuclein and dopaminergic neurons in Parkinson disease,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.09544125199317932,0.00021119415760040283,0.2097780890762806,True
+Q019,oxidative stress endothelial dysfunction and atherosclerosis,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.15669067576527596,0.00025708600878715515,0.21454338356852531,True
+Q019,oxidative stress endothelial dysfunction and atherosclerosis,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.15669067576527596,0.00015396252274513245,0.2129950411617756,True
+Q019,oxidative stress endothelial dysfunction and atherosclerosis,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.15669067576527596,0.0001977384090423584,0.2101224735379219,True
+Q020,TGF beta renal fibrosis in chronic kidney disease,mechanism_genetics,en,simple,50,50,50,10,False,null,{},0.0704476349055767,0.00025626644492149353,0.21374834328889847,True
+Q020,TGF beta renal fibrosis in chronic kidney disease,mechanism_genetics,en,rrf,50,50,50,10,False,null,{},0.0704476349055767,0.0001591816544532776,0.20883219689130783,True
+Q020,TGF beta renal fibrosis in chronic kidney disease,mechanism_genetics,en,weighted,50,50,50,10,False,null,{},0.0704476349055767,0.0002011433243751526,0.21057946234941483,True
+Q021,SARS coronavirus spike protein and ACE2 receptor,infection_immunity,en,simple,50,50,50,10,False,null,{},0.10375883057713509,0.00024359673261642456,0.2181420996785164,True
+Q021,SARS coronavirus spike protein and ACE2 receptor,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.10375883057713509,0.00018811970949172974,0.2147715464234352,True
+Q021,SARS coronavirus spike protein and ACE2 receptor,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.10375883057713509,0.0002261325716972351,0.2122170254588127,True
+Q022,influenza neuraminidase inhibitor resistance,infection_immunity,en,simple,50,50,50,10,False,null,{},0.1734255887567997,0.0002208910882472992,0.20737124606966972,True
+Q022,influenza neuraminidase inhibitor resistance,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.1734255887567997,0.00016344338655471802,0.2027316726744175,True
+Q022,influenza neuraminidase inhibitor resistance,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.1734255887567997,0.0002233944833278656,0.20182063058018684,True
+Q023,hepatitis C antiviral treatment response,infection_immunity,en,simple,50,50,50,10,False,null,{},0.17591428384184837,0.00023241713643074036,0.21165743842720985,True
+Q023,hepatitis C antiviral treatment response,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.17591428384184837,0.0001612454652786255,0.20956626534461975,True
+Q023,hepatitis C antiviral treatment response,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.17591428384184837,0.00020255520939826965,0.20175590738654137,True
+Q024,HIV reverse transcriptase inhibitor resistance,infection_immunity,en,simple,50,50,50,10,False,null,{},0.09240205958485603,0.00022746995091438293,0.21342726424336433,True
+Q024,HIV reverse transcriptase inhibitor resistance,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.09240205958485603,0.00016710907220840454,0.20894114673137665,True
+Q024,HIV reverse transcriptase inhibitor resistance,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.09240205958485603,0.00020378082990646362,0.20704400911927223,True
+Q025,Plasmodium falciparum antimalarial drug resistance,infection_immunity,en,simple,50,50,50,10,False,null,{},0.07072770595550537,0.00022265687584877014,0.20731015875935555,True
+Q025,Plasmodium falciparum antimalarial drug resistance,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.07072770595550537,0.00016371533274650574,0.20798062160611153,True
+Q025,Plasmodium falciparum antimalarial drug resistance,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.07072770595550537,0.00020590797066688538,0.21689312160015106,True
+Q026,bacterial sepsis inflammatory cytokine response,infection_immunity,en,simple,50,50,50,10,False,null,{},0.07096041738986969,0.0002169869840145111,0.20524492487311363,True
+Q026,bacterial sepsis inflammatory cytokine response,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.07096041738986969,0.00016407668590545654,0.20264407247304916,True
+Q026,bacterial sepsis inflammatory cytokine response,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.07096041738986969,0.00020451471209526062,0.20522962883114815,True
+Q027,vaccine induced antibody immune response,infection_immunity,en,simple,50,50,50,10,False,null,{},0.09937089309096336,0.00022735446691513062,0.22373805567622185,True
+Q027,vaccine induced antibody immune response,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.09937089309096336,0.00016732141375541687,0.21751093864440918,True
+Q027,vaccine induced antibody immune response,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.09937089309096336,0.0002215765416622162,0.21748493611812592,True
+Q028,macrophage activation in innate immune response,infection_immunity,en,simple,50,50,50,10,False,null,{},0.1145079955458641,0.00032191723585128784,0.22722350805997849,True
+Q028,macrophage activation in innate immune response,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.1145079955458641,0.0001628883183002472,0.20912303030490875,True
+Q028,macrophage activation in innate immune response,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.1145079955458641,0.00020116567611694336,0.20294002071022987,True
+Q029,interleukin 6 inflammation in rheumatoid arthritis,infection_immunity,en,simple,50,50,50,10,False,null,{},0.17027216032147408,0.00033272430300712585,0.23061791062355042,True
+Q029,interleukin 6 inflammation in rheumatoid arthritis,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.17027216032147408,0.00016482919454574585,0.21404117345809937,True
+Q029,interleukin 6 inflammation in rheumatoid arthritis,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.17027216032147408,0.00020103156566619873,0.21340688690543175,True
+Q030,TNF alpha blockade in rheumatoid arthritis,infection_immunity,en,simple,50,50,50,10,False,null,{},0.06304831430315971,0.0004047490656375885,0.21560687199234962,True
+Q030,TNF alpha blockade in rheumatoid arthritis,infection_immunity,en,rrf,50,50,50,10,False,null,{},0.06304831430315971,0.00030952319502830505,0.20153333246707916,True
+Q030,TNF alpha blockade in rheumatoid arthritis,infection_immunity,en,weighted,50,50,50,10,False,null,{},0.06304831430315971,0.00020290911197662354,0.20182887464761734,True
+Q031,PCR detection of viral DNA,method_biomarker,en,simple,50,50,50,10,False,null,{},0.10364261642098427,0.0002550669014453888,0.2097099833190441,True
+Q031,PCR detection of viral DNA,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.10364261642098427,0.00016162917017936707,0.19766075536608696,True
+Q031,PCR detection of viral DNA,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.10364261642098427,0.0002041645348072052,0.19401836022734642,True
+Q032,quantitative real-time PCR gene expression analysis,method_biomarker,en,simple,50,50,50,10,False,null,{},0.1510535627603531,0.00029634684324264526,0.2186669073998928,True
+Q032,quantitative real-time PCR gene expression analysis,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.1510535627603531,0.0001603551208972931,0.2112697996199131,True
+Q032,quantitative real-time PCR gene expression analysis,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.1510535627603531,0.0002075396478176117,0.20789311453700066,True
+Q033,DNA microarray breast cancer gene expression classification,method_biomarker,en,simple,50,50,50,10,False,null,{},0.1511501520872116,0.00027598440647125244,0.22558414563536644,True
+Q033,DNA microarray breast cancer gene expression classification,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.1511501520872116,0.00016244128346443176,0.2162403129041195,True
+Q033,DNA microarray breast cancer gene expression classification,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.1511501520872116,0.00020284578204154968,0.21082695201039314,True
+Q034,RNA interference mediated gene silencing,method_biomarker,en,simple,50,50,50,10,False,null,{},0.091719850897789,0.00046524778008461,0.22449803352355957,True
+Q034,RNA interference mediated gene silencing,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.091719850897789,0.00019669532775878906,0.20857802033424377,True
+Q034,RNA interference mediated gene silencing,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.091719850897789,0.00023536384105682373,0.21054983139038086,True
+Q035,flow cytometry analysis of T cell activation,method_biomarker,en,simple,50,50,50,10,False,null,{},0.11504418402910233,0.00034792348742485046,0.22408068180084229,True
+Q035,flow cytometry analysis of T cell activation,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.11504418402910233,0.00016195699572563171,0.2080148421227932,True
+Q035,flow cytometry analysis of T cell activation,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.11504418402910233,0.00019995495676994324,0.20589376986026764,True
+Q036,immunohistochemistry detection of tumor biomarkers,method_biomarker,en,simple,50,50,50,10,False,null,{},0.08352997153997421,0.00039928779006004333,0.22842349484562874,True
+Q036,immunohistochemistry detection of tumor biomarkers,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.08352997153997421,0.00016128644347190857,0.21542535349726677,True
+Q036,immunohistochemistry detection of tumor biomarkers,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.08352997153997421,0.0001997724175453186,0.21845128387212753,True
+Q037,ELISA measurement of inflammatory cytokines,method_biomarker,en,simple,50,50,50,10,False,null,{},0.08626765385270119,0.0002647675573825836,0.2201620228588581,True
+Q037,ELISA measurement of inflammatory cytokines,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.08626765385270119,0.0002813972532749176,0.20731539651751518,True
+Q037,ELISA measurement of inflammatory cytokines,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.08626765385270119,0.00020989403128623962,0.2091892883181572,True
+Q038,survival analysis of prognostic biomarkers in cancer,method_biomarker,en,simple,50,50,50,10,False,null,{},0.11697284132242203,0.00026872381567955017,0.22257785499095917,True
+Q038,survival analysis of prognostic biomarkers in cancer,method_biomarker,en,rrf,50,50,50,10,False,null,{},0.11697284132242203,0.0001622512936592102,0.20722201466560364,True
+Q038,survival analysis of prognostic biomarkers in cancer,method_biomarker,en,weighted,50,50,50,10,False,null,{},0.11697284132242203,0.00020273402333259583,0.20874670892953873,True
+Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,bilingual,zh,simple,50,50,50,10,False,null,{},0.11655905842781067,0.0003963448107242584,0.21516475826501846,True
+Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.11655905842781067,0.00016118958592414856,0.2041098102927208,True
+Q039,二甲双胍对2型糖尿病患者心血管结局有什么影响？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.11655905842781067,0.00019956007599830627,0.200903482735157,True
+Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,bilingual,zh,simple,50,50,50,10,False,null,{},0.0987752228975296,0.00034980475902557373,0.22698111087083817,True
+Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.0987752228975296,0.00016536936163902283,0.21445399895310402,True
+Q040,EGFR突变如何影响非小细胞肺癌的治疗反应？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.0987752228975296,0.00021296367049217224,0.21126864105463028,True
+Q041,PCR如何用于病毒核酸检测？,bilingual,zh,simple,50,50,50,10,False,null,{},0.09039691090583801,0.00025098398327827454,0.21308594942092896,True
+Q041,PCR如何用于病毒核酸检测？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.09039691090583801,0.00016008317470550537,0.20017914846539497,True
+Q041,PCR如何用于病毒核酸检测？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.09039691090583801,0.00020409747958183289,0.2041253261268139,True
+Q042,HIV逆转录酶抑制剂的耐药机制是什么？,bilingual,zh,simple,50,50,50,10,False,null,{},0.09155232831835747,0.0002709589898586273,0.20254553481936455,True
+Q042,HIV逆转录酶抑制剂的耐药机制是什么？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.09155232831835747,0.00016178935766220093,0.18991182371973991,True
+Q042,HIV逆转录酶抑制剂的耐药机制是什么？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.09155232831835747,0.0002013072371482849,0.19567562639713287,True
+Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,bilingual,zh,simple,50,50,50,10,False,null,{},0.07074549421668053,0.0004656091332435608,0.21296655014157295,True
+Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.07074549421668053,0.00016530603170394897,0.20095209404826164,True
+Q043,炎症因子（inflammatory cytokines）如何调控巨噬细胞（macrophage）反应？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.07074549421668053,0.00020270422101020813,0.19819962233304977,True
+Q044,BRCA1与乳腺癌遗传风险有什么关系？,bilingual,zh,simple,50,50,50,10,False,null,{},0.06990962475538254,0.0003891102969646454,0.21986563131213188,True
+Q044,BRCA1与乳腺癌遗传风险有什么关系？,bilingual,zh,rrf,50,50,50,10,False,null,{},0.06990962475538254,0.0001668110489845276,0.2094891294836998,True
+Q044,BRCA1与乳腺癌遗传风险有什么关系？,bilingual,zh,weighted,50,50,50,10,False,null,{},0.06990962475538254,0.00021241605281829834,0.20794953405857086,True
+Q045,2003 Plasmodium falciparum gene expression research article,metadata_structure,en,simple,50,50,50,10,False,null,"{""pub_year_eq"": ""2003"", ""article_type"": ""research-article""}",0.19080686569213867,0.0004183240234851837,0.23048216477036476,True
+Q045,2003 Plasmodium falciparum gene expression research article,metadata_structure,en,rrf,50,50,50,10,False,null,"{""pub_year_eq"": ""2003"", ""article_type"": ""research-article""}",0.19080686569213867,0.0001746751368045807,0.2127799168229103,True
+Q045,2003 Plasmodium falciparum gene expression research article,metadata_structure,en,weighted,50,50,50,10,False,null,"{""pub_year_eq"": ""2003"", ""article_type"": ""research-article""}",0.19080686569213867,0.0002134069800376892,0.21301816031336784,True
+Q046,PLoS ONE breast cancer gene expression,metadata_structure,en,simple,50,50,50,10,False,null,"{""journal"": ""PLoS ONE""}",0.1135752908885479,0.00032356008887290955,0.22121238335967064,True
+Q046,PLoS ONE breast cancer gene expression,metadata_structure,en,rrf,50,50,50,10,False,null,"{""journal"": ""PLoS ONE""}",0.1135752908885479,0.00016402080655097961,0.20807524770498276,True
+Q046,PLoS ONE breast cancer gene expression,metadata_structure,en,weighted,50,50,50,10,False,null,"{""journal"": ""PLoS ONE""}",0.1135752908885479,0.00020859017968177795,0.2093394361436367,True
+Q047,aspirin myocardial infarction before 2008,metadata_structure,en,simple,50,50,50,10,False,null,"{""pub_year_lte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.07248448207974434,0.0003959834575653076,0.2168041504919529,True
+Q047,aspirin myocardial infarction before 2008,metadata_structure,en,rrf,50,50,50,10,False,null,"{""pub_year_lte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.07248448207974434,0.00016147643327713013,0.20176368206739426,True
+Q047,aspirin myocardial infarction before 2008,metadata_structure,en,weighted,50,50,50,10,False,null,"{""pub_year_lte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.07248448207974434,0.0002068541944026947,0.19611907750368118,True
+Q048,EGFR lung cancer after 2008,metadata_structure,en,simple,50,50,50,10,False,null,"{""pub_year_gte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.08565158396959305,0.00039060041308403015,0.20959503203630447,True
+Q048,EGFR lung cancer after 2008,metadata_structure,en,rrf,50,50,50,10,False,null,"{""pub_year_gte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.08565158396959305,0.00015709921717643738,0.1948135606944561,True
+Q048,EGFR lung cancer after 2008,metadata_structure,en,weighted,50,50,50,10,False,null,"{""pub_year_gte"": ""2008"", ""where_compatibility_note"": ""pub_year is a Chroma string; apply range after retrieval or verify string-range support.""}",0.08565158396959305,0.00020085275173187256,0.19574232771992683,True
+Q049,PCR viral detection methods section,metadata_structure,en,simple,50,50,50,10,False,null,"{""section_title_norm"": [""methods""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",0.14473429694771767,0.00025403499603271484,0.2118348926305771,True
+Q049,PCR viral detection methods section,metadata_structure,en,rrf,50,50,50,10,False,null,"{""section_title_norm"": [""methods""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",0.14473429694771767,0.00016275793313980103,0.19738312810659409,True
+Q049,PCR viral detection methods section,metadata_structure,en,weighted,50,50,50,10,False,null,"{""section_title_norm"": [""methods""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",0.14473429694771767,0.00020306184887886047,0.20547328516840935,True
+Q050,breast cancer gene expression results section research article,metadata_structure,en,simple,50,50,50,10,True,"{""article_type"": ""research-article""}","{""article_type"": ""research-article"", ""section_title_norm"": [""results""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",11.084567300975323,0.0003465116024017334,0.21929239854216576,True
+Q050,breast cancer gene expression results section research article,metadata_structure,en,rrf,50,50,50,10,True,"{""article_type"": ""research-article""}","{""article_type"": ""research-article"", ""section_title_norm"": [""results""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",11.084567300975323,0.0002626180648803711,0.21239440515637398,True
+Q050,breast cancer gene expression results section research article,metadata_structure,en,weighted,50,50,50,10,True,"{""article_type"": ""research-article""}","{""article_type"": ""research-article"", ""section_title_norm"": [""results""], ""section_note"": ""Confirm normalized labels before Chroma filtering.""}",11.084567300975323,0.00021245703101158142,0.211739681661129,True
